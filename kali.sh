@@ -34,7 +34,7 @@ go install github.com/michenriksen/aquatone
 echo "export PATH=\$PATH:/root/go/bin" >> /root/.bashrc
 echo "[+] Set up go and aquatone"
 
-cd /tools/cobaltstrike
+cd /root/tools/cobaltstrike
 ./update
 echo "[+] Cobalt Strike updated"
 
